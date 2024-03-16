@@ -1,0 +1,70 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB; /* bg-gray-200 */
+    height: 100vh;
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20rem; /* w-80 */
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    height: 3rem; /* h-12 */
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    color: #4B5563; /* text-gray-600 */
+    font-weight: 600; /* font-semibold */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .input {
+    width: 100%; /* w-full */
+    border: 1px solid #D1D5DB; /* border */
+    border-radius: 0.375rem; /* rounded-md */
+    padding: 0.5rem 0.75rem; /* py-2 px-3 */
+    outline: none; /* focus:outline-none */
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #3B82F6; /* focus:border-blue-500 */
+  }
+  
+  .btn {
+    width: 100%; /* w-full */
+    background-color: #3B82F6; /* bg-blue-500 */
+    color: white; /* text-white */
+    font-weight: 600; /* font-semibold */
+    padding: 0.5rem 0.75rem; /* py-2 px-4 */
+    border-radius: 0.375rem; /* rounded-md */
+    transition: background-color 0.2s ease-in-out;
+    outline: none; /* focus:outline-none */
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #2563EB; /* hover:bg-blue-700 */
+  }
+  
+  .signup-link {
+    opacity: 0.5; /* opacity-50 */
+  }
+  
+  .signup-link:hover {
+    opacity: 1; /* hover:opacity-100 */
+  }
+  
